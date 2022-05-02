@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({ extended : true }));
 app.use(express.json());
 
-const dbURI = "mongodb+srv://sandy-node-nn:atlas25@cluster0.gzgq5.mongodb.net/userDB?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://pranav:makeitinMONGODB!@cluster0.h4vd8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 (async () => {
     await mongoose.connect(dbURI);
